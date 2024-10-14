@@ -1,0 +1,55 @@
+
+.mypage {
+  padding: 20px; /* 여백 추가 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.mypage h2 {
+  font-size: 30px; /* 제목 크기 */
+  margin-bottom: 20px; /* 아래 여백 */
+  color: #333; /* 글자 색상 */
+}
+.logoutButton {
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.userInfo {
+  margin-top: 20px;
+}
+.userInfo p {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.mypage span {
+  font-size: 24px; /* 텍스트 크기 */
+  margin-left: 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.mypage button {
+  padding: 8px 10px; /* 버튼 여백 */
+  font-size: 20px; /* 버튼 텍스트 크기 */
+  background-color: #007bff; /* 버튼 배경색 */
+  color: white; /* 버튼 텍스트 색상 */
+  border: none; /* 경계선 없음 */
+  border-radius: 4px; /* 둥근 모서리 */
+  cursor: pointer; /* 마우스 포인터 변화 */
+  transition: background-color 0.3s; /* 배경색 변화 애니메이션 */
+}
+
+.mypage button:hover {
+  background-color: #0056b3; /* 호버 시 배경색 변화 */
+}
+.logoutLeft {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.logoutLeft {
+  display: flex;
+  align-items: flex-start;
+}

@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box; /* 모든 요소에 box-sizing 적용 */
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}

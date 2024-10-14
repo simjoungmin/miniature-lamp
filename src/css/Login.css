@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+.loginContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  margin: 0 auto;
+  width: 550px;
+  height: 850px;
+
+  padding: 20px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6); 
+  background-color: white; 
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}
+.loginlist {
+  text-align: center;
+}
+.loginContainer h2 {
+  font-size: 1.35rem;
+  width: 400px;
+  height: 65px;
+  text-align: center; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #1e90ff; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  line-height: 2.8;
+}
+
+.socialLoginContainer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  flex-grow: 1; 
+}
+
+#naverIdLogin_loginButton img {
+  width: 300px;
+  height: 65px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.socialLoginButtonkakao {
+  background: url('../images/kakao_login_large_narrow.png') no-repeat center
+    center;
+  width: 300px; 
+  height: 65px; 
+  background-size: cover; 
+  cursor: pointer; 
+  margin-left: 104px;
+}
